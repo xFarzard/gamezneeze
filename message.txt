@@ -551,7 +551,7 @@ function library:Loader(info)
     --
     theme.accent = accent
     --
-    local window = {pages = {}, loader = true, isVisible = false, pageammount = pageammount, callback = callback, wminfo = "$$$$$ AntarcticaWare $$$$$ || UID : %u || Ping : %s || Fps : %u", currentPage = nil, fading = false, dragging = false, drag = Vector2.new(0,0), currentContent = {frame = nil, dropdown = nil, multibox = nil, colorpicker = nil, keybind = nil, textbox = nil}}
+    local window = {pages = {}, loader = true, isVisible = false, pageammount = pageammount, callback = callback, wminfo = "$$$$$ USSIAISFAT $$$$$ || UID : %u || Ping : %s || Fps : %u", currentPage = nil, fading = false, dragging = false, drag = Vector2.new(0,0), currentContent = {frame = nil, dropdown = nil, multibox = nil, colorpicker = nil, keybind = nil, textbox = nil}}
     --
     local main_frame = utility:Create("Frame", {Vector2.new(0,0)}, {
         Size = utility:Size(0, size.X, 0, size.Y),
@@ -8329,7 +8329,7 @@ end
 end
 
 
-local Window = Library:New({Name = "consense.cc - Y0mtt (4124476368)", Style = 1, PageAmmount = 7, Size = Vector2.new(batz.Language == "En" and 604 or 554, 629)})
+local Window = Library:New({Name = "$$$$$ USSIAISFAT $$$$$ - .ussias (3406065006)", Style = 1, PageAmmount = 7, Size = Vector2.new(batz.Language == "En" and 604 or 554, 629)})
 Library:UpdateColor("Accent", Color3.fromRGB(255, 51, 255))
 
 
